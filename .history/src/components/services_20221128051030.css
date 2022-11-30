@@ -1,0 +1,15 @@
+.sections {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+}
+.containers {
+  color: white;
+  text-align: center;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-items: center; */
+}

@@ -1,0 +1,15 @@
+.card-content {
+  border-radius: 12px;
+
+  /* flex-direction: column; */
+  width: 30%;
+  background: #222222;
+  padding: 30px 50px;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  /* display: flex; */
+  margin: 30px 0px;
+}

@@ -1,0 +1,10 @@
+.profile-section {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: white;
+}
+.button {
+  padding: 10px 30px;
+  box-shadow: gray;
+}

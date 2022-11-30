@@ -1,0 +1,89 @@
+.profile-section {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: white;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  /* display: flex; */
+  align-items: center;
+  gap: 20px;
+}
+.links a {
+  color: white;
+}
+.sidebar-container {
+  /* display: inline-block; */
+  /* margin: 0 0.5rem; */
+  /* animation: slideInRight 2s; */
+  /* animation-duration: 2s; */
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 100%;
+  width: 40%;
+  top: 0px;
+  right: 0px;
+  background-color: #222222;
+  position: fixed;
+}
+.burger-menu {
+  width: 30px;
+  height: 30px;
+}
+.close {
+  color: white;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 4px;
+}
+.button {
+  padding: 10px 30px;
+  box-shadow: gray;
+  border: none;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.button:hover {
+  cursor: pointer;
+}
+.button a {
+  color: black;
+}
+.link-icons {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.instagram {
+  font-size: 20px;
+}
+.facebook {
+  font-size: 20px;
+}
+.twitter {
+  font-size: 30px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 950px) {
+  .profile-section {
+    display: none;
+  }
+}
+@media only screen and (min-width: 950px) {
+  .burger-menu {
+    display: none;
+  }
+}
+.sidebar-section {
+  margin-top: 40%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+/* animate__slideInRight */

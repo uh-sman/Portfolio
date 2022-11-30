@@ -1,0 +1,74 @@
+.profile-section {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: white;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  /* display: flex; */
+  align-items: center;
+  gap: 20px;
+}
+.links a {
+  color: white;
+}
+.sidebar-container {
+  display: inline-block;
+  /* margin: 0 0.5rem; */
+  animation: slideInRight;
+  animation-duration: 2s;
+  height: 100%;
+  width: 40%;
+  top: 0px;
+  right: 0px;
+  background-color: sienna;
+  position: absolute;
+}
+.burger-menu {
+  width: 30px;
+  height: 30px;
+}
+.close {
+  width: 30px;
+  height: 30px;
+}
+.button {
+  padding: 10px 30px;
+  box-shadow: gray;
+  border: none;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.button a {
+  color: black;
+}
+.instagram {
+  font-size: 20px;
+}
+.facebook {
+  font-size: 20px;
+}
+.twitter {
+  font-size: 30px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 950px) {
+  .profile-section {
+    display: none;
+  }
+}
+@media only screen and (min-width: 950px) {
+  .burger-menu {
+    display: none;
+  }
+}
+.sidebar-section {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+/* animate__slideInRight */

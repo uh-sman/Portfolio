@@ -1,0 +1,21 @@
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav-list a {
+  color: white;
+}
+.navbar {
+  margin: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  color: white;
+}
+.navbar-container {
+  border-bottom: 1px solid gray;
+}

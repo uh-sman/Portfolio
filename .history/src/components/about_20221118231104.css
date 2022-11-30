@@ -1,0 +1,25 @@
+.about-section {
+  color: white;
+  margin: 60px 30px;
+}
+.introduction {
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background: #222222;
+  padding: 30px 50px;
+}
+.about-card {
+  justify-content: space-between;
+  display: flex;
+}
+.btn {
+  background: #262626;
+  padding: 10px 20px;
+  border: 1px solid white;
+}
+.about-button {
+  /* display: flex; */
+  gap: 20px;
+}

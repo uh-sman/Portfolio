@@ -1,0 +1,36 @@
+.profile-section {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: white;
+}
+.sidebar-container {
+  height: 100%;
+  width: 30%;
+  background-color: brown;
+}
+.burger-menu {
+  width: 30px;
+  height: 30px;
+}
+.close {
+  width: 20px;
+  height: 20px;
+}
+.button {
+  padding: 10px 30px;
+  box-shadow: gray;
+  border: none;
+  font-weight: 700;
+  border-radius: 5px;
+}
+@media only screen and (min-width: 200px) and (max-width: 950px) {
+  .profile-section {
+    display: none;
+  }
+}
+@media only screen and (min-width: 950px) {
+  .burger-menu {
+    display: none;
+  }
+}

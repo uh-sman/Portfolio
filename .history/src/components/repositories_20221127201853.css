@@ -1,0 +1,39 @@
+.card-content {
+  border-radius: 12px;
+
+  width: 30%;
+  background: #222222;
+  padding: 30px 50px;
+}
+.card-container {
+  /* display: grid; */
+  display: flex;
+  gap: 30px;
+  margin: 30px 0px;
+}
+.card-content a {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+}
+.card-content a img {
+  width: 20px;
+  height: 20px;
+}
+.card-content a:hover {
+  border-bottom: 1px solid gray;
+  width: 50px;
+}
+.icon-right {
+  color: yellow;
+}
+.card-content:hover {
+  background-color: white;
+  color: black;
+}
+.card-content:hover a {
+  transition: 2s;
+  color: black;
+}

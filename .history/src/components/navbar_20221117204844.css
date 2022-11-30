@@ -1,0 +1,15 @@
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar {
+  margin: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  color: white;
+}

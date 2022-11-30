@@ -1,0 +1,11 @@
+.about-section {
+  color: white;
+  margin: 60px 30px;
+}
+.introduction {
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  background: #000;
+  padding: 30px 50px;
+}

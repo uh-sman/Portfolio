@@ -1,0 +1,16 @@
+.sections {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+}
+.containers {
+  color: white;
+  text-align: center;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}

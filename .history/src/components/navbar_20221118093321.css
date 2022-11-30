@@ -1,0 +1,41 @@
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav-list a {
+  color: white;
+}
+.navbar {
+  margin: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-nav {
+  display: flex;
+  gap: 10px;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  color: white;
+}
+.navbar-container {
+  border-bottom: 0.5px solid gray;
+}
+.btn {
+  border: none;
+  background: transparent;
+}
+.active,
+.btn:hover {
+  position: absolute;
+  border-bottom: 1px solid lightblue;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 950px) {
+  .nav-list {
+    display: none;
+  }
+}

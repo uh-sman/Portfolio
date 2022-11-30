@@ -1,0 +1,19 @@
+.sections {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  gap: 40px;
+}
+.header {
+}
+.containers {
+  padding-top: 50%;
+  color: white;
+  text-align: center;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}

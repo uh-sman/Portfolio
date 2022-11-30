@@ -1,0 +1,13 @@
+.sections {
+  /* display: flex;
+  flex-direction: column; */
+}
+.header {
+}
+.containers {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}

@@ -1,0 +1,23 @@
+.about {
+  color: white;
+}
+.introduction {
+  margin: 40px 30px;
+  color: white;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background: #222222;
+  padding: 30px 50px;
+}
+.about-myself {
+}
+.text {
+  display: flex;
+  align-items: center;
+}
+.computer-image {
+  width: 20px;
+  height: 20px;
+}

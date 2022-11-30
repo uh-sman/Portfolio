@@ -1,0 +1,10 @@
+.sections {
+  /* display: flex;
+  flex-direction: column; */
+}
+.header {
+}
+.containers {
+  color: white;
+  display: flex;
+}
