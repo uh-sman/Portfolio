@@ -44,7 +44,7 @@ export const Profile = () => {
             <div>
               <FaRegWindowClose
                 className="close"
-                onClick={() => setIsActive(!isActive)}
+                onClick={`${isActive} ? "activeClass : "notActiveClass"`}
               />
               {/* <img src={close} /> */}
             </div>

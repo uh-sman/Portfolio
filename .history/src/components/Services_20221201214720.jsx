@@ -2,7 +2,7 @@ import React from "react";
 import { MobileCarousel } from "./MobileCarousel";
 import { useInterval } from "./MobileCarousel";
 import "./services.css";
-import { services } from "./repositories";
+
 const Services = () => {
   const slide = [];
   return (
@@ -16,16 +16,27 @@ const Services = () => {
           </h3>
         </section>
         <div className="sections">
-          {services.map(({ id, title, text }) => {
-            return (
-              <div key={id} className="head">
-                <h2>{title}</h2>
-                <text>
-                  <p>{text}</p>
-                </text>
-              </div>
-            );
-          })}
+          <div className="head">
+            <h1></h1>
+            <h2></h2>
+            <text>
+              <p></p>
+            </text>
+          </div>
+          <div>
+            <h1></h1>
+            <h2></h2>
+            <text>
+              <p></p>
+            </text>
+          </div>
+          <div>
+            <h1></h1>
+            <h2></h2>
+            <text>
+              <p></p>
+            </text>
+          </div>
         </div>
         <MobileCarousel />
       </div>

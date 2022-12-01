@@ -43,7 +43,7 @@
 import React, { useEffect, useRef } from "react";
 
 // No packages needed. I use tailwind CSS, but it's not required.
-export const MobileCarousel = ({}) => {
+const MyComponent = ({}) => {
   const [activeIndex, setActiveIndex] = React.useState(0);
   const carouselReference = useRef(null);
   useInterval(() => {
@@ -71,7 +71,6 @@ export const MobileCarousel = ({}) => {
           }
         />
       </div>
-      <useInterval />
     </div>
   );
 };

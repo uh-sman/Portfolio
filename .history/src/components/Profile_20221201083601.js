@@ -11,16 +11,25 @@ import "animate.css";
 import "./profile.css";
 export const Profile = () => {
   const [isActive, setIsActive] = useState(false);
-  const [activeIndex, setActiveIndex] = useState(0);
+  const style = {
+    position: "fixed",
+    top: "0",
+    bottom: "0",
+    right: "0",
+    background: "white",
+    width: "300px",
+    listStyle: " none",
+    padding: "20px",
+    display: "flex",
+    flexDirection: "column",
+    transform: `${(props) =>
+      props.show ? "translateX(0)" : "translateX(100%)"}`,
+    textAlign: "start",
 
-  const handleActiveIndexChange = {};
+    transition: "transform 0.3s ease-in",
+  };
   const name = "usman";
   const lastName = "umar";
-  if (name != name) {
-    console.log("the name is incorrect");
-  } else {
-    console.log("correct");
-  }
   return (
     <div>
       <div>

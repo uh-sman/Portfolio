@@ -71,7 +71,6 @@ export const MobileCarousel = ({}) => {
           }
         />
       </div>
-      <useInterval />
     </div>
   );
 };

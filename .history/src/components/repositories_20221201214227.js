@@ -24,17 +24,14 @@ export const repositories = [
 export const services = [
   {
     id: 1,
-    title: "Web Development",
-    text: "HTML, CSS {Tailwind,MaterialUi,ANT DESIGN}, JavScript  {MERN STACK},Firebase ? You name it. I have it all Covered!",
+    title: "",
   },
   {
     id: 2,
-    title: "Responsive Design",
-    text: " Research shows as of 2017 you can't go online without having a mobile responsive website. Let me take care of that for you!",
+    title: "",
   },
   {
     id: 3,
-    title: "PHOTOSHOP DESIGN  {PSD} TO HTML",
-    text: "  Already have a design in PhotoShop, Invision, Figma or any other format, I can convert it from scratch into pixel-perfect HTML/CSS/JS",
+    title: "",
   },
 ];
