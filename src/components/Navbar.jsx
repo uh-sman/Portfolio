@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/ico.png";
 import "./navbar.css";
 import { Profile } from "./Profile";
 export const Navbar = () => {
-  const [active, isActive] = useState(false);
+  // const [active, isActive] = useState(false);
   // const [activeLink, setActiveLink] = useState(true);
   // const clickedLink = ["teal"];
   // const clicked = document.querySelector("nav-list");
@@ -42,16 +42,20 @@ export const Navbar = () => {
               </a>
             </div>
             <ul className="nav-list">
-              <Link to="/">
+              <NavLink to="/" className="btn ">
                 <a href="">About</a>
-              </Link>
+              </NavLink>
 
-              <Link to="/projects">
-                <a href="">Projects</a>
-              </Link>
-              <Link to="/services" className="btn">
-                <a href="">Services</a>
-              </Link>
+              <NavLink to="/projects">
+                <a href="" className="btn">
+                  Projects
+                </a>
+              </NavLink>
+              <NavLink to="/services" className="btn">
+                <a href="" className="btn">
+                  Services
+                </a>
+              </NavLink>
             </ul>
           </div>
           <div>

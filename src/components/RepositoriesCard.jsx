@@ -1,5 +1,6 @@
 import React from "react";
 import "./repositories.css";
+
 import hand from "../assets/hand-right.png";
 import { repositories } from "./repositories";
 const RepositoriesCard = () => {

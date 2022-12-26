@@ -1,22 +1,11 @@
 import lottie from "lottie-web";
 import React from "react";
-import "animate.css";
-// import monitor from "../assets/monitor.png";
-// import Lottie from "./Lottie";
-import Lottie from "lottie-react";
-import hand from "../assets/handshake.json";
+import monitor from "../assets/monitor.png";
+import Lottie from "./Lottie";
 import "./about.css";
 // import json from "../assets/80604-hand.json";
 import RepositoriesCard from "./RepositoriesCard";
 const About = () => {
-  const style = {
-    height: 120,
-  };
-  const options = {
-    animationData: hand,
-    loop: true,
-    width: 50,
-  };
   // lottie.loadAnimation({
   //   container: lottie, // the dom element that will contain the animation
   //   renderer: "svg",
@@ -34,10 +23,7 @@ const About = () => {
         <div className="about-side">
           <div className="about-myself">
             <div className="image-section">
-              {/* <Lottie /> */}
-              {/* <div style={{ marginLeft: "-20px" }}> */}
-              <Lottie animationData={hand} loop={true} style={style} />
-              {/* </div> */}
+              <Lottie />
               <h1>hello,</h1>
             </div>
             <div className="text-section">

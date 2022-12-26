@@ -1,5 +1,6 @@
 import React from "react";
 import RepositoriesCard from "./RepositoriesCard";
+import "animate.css";
 import "./projects.css";
 const Projects = () => {
   return (

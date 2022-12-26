@@ -5,6 +5,7 @@ import About from "./components/About";
 import "animate.css";
 import Projects from "./components/Projects";
 import Services from "./components/Services";
+import { Contact } from "./components/contact";
 // import Services from "./components/Services";
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );

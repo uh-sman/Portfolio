@@ -26,6 +26,12 @@ active,
 .navbar-container {
   border-bottom: 0.5px solid gray;
 }
+.active {
+  border-bottom: 4px solid aqua;
+}
+/* navbar navbar-nav nav-list a .active {
+  color: aqua;
+} */
 /* .btn {
   border: transparent;
   outline: none;

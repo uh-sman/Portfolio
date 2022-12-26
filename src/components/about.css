@@ -1,6 +1,8 @@
 .about {
   color: white;
   margin-bottom: 20px;
+  animation: fadeInDownBig;
+  animation-duration: 2s;
 }
 .introduction {
   margin: 40px 30px;
@@ -31,7 +33,9 @@
   gap: 40px;
 }
 .image-section {
-  padding-left: 90px;
+  padding: 0px 50px;
+  display: flex;
+  flex-direction: column;
 }
 .text-section {
   display: flex;
@@ -49,6 +53,9 @@
 @media only screen and (max-width: 950px) {
   .about-myself {
     flex-direction: column;
+  }
+  .image-section {
+    flex-direction: row;
   }
   .introduction {
     width: 40%;

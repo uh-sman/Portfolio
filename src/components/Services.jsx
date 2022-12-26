@@ -2,6 +2,7 @@ import React from "react";
 import { MobileCarousel } from "./MobileCarousel";
 import { useInterval } from "./MobileCarousel";
 import "./services.css";
+import "animate.css";
 import { services } from "./repositories";
 const Services = () => {
   const slide = [];
@@ -27,7 +28,7 @@ const Services = () => {
             );
           })}
         </div>
-        <MobileCarousel />
+        {/* <MobileCarousel /> */}
       </div>
     </div>
   );

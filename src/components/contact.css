@@ -1,0 +1,105 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-container {
+  /* background: white; */
+  /* margin: 180px 0px; */
+  /* margin: 0 0.5rem; */
+  /* overflow-x: hidden; */
+  /* overflow: hidden; */
+  animation: slideInRight;
+  animation-duration: 3s;
+
+  /* vertical-align: center; */
+  margin: 10% 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin: auto; */
+}
+.contact-content {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: #ffff;
+  justify-content: center;
+  align-items: center;
+  /* place-content: center; */
+  /* place-items: center; */
+  width: 50vw;
+  height: 30vw;
+}
+.contact-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #222222;
+  width: 400px;
+  height: 320px;
+  line-height: 35px;
+}
+.slide-container {
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  line-height: 35px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+  margin: auto;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.image {
+  width: 30px;
+  height: 30px;
+}
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: white;
+  text-align: center;
+  letter-spacing: normal;
+  font-size: 18px;
+}
+@media only screen and (max-width: 980px) {
+  .contact-container {
+    /* flex-direction: column; */
+    display: block;
+    /* margin: 35% 0%; */
+  }
+  .contact-content {
+    display: none;
+    /* width: 50vw;
+    height: 80vh;
+    flex-direction: column;
+    gap: 40px; */
+    /* grid-template-columns: 1fr; */
+    /* place-content: center; */
+  }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1200px) {
+  .slider {
+    display: none;
+  }
+  .contact-content {
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .slider {
+    display: none;
+  }
+}

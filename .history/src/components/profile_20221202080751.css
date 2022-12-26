@@ -4,9 +4,6 @@
   align-items: center;
   color: white;
 }
-.profile-section:hover {
-  cursor: pointer;
-}
 .links {
   display: flex;
   flex-direction: column;
@@ -31,7 +28,6 @@
   height: 100%;
   width: 60%;
   top: 0px;
-  /* left: 0; */
   right: 0px;
   background-color: #222222;
   position: fixed;
@@ -75,16 +71,10 @@
 .facebook {
   font-size: 20px;
 }
-.contact {
-  text-decoration: none;
-  color: white;
-}
 .twitter {
   font-size: 30px;
 }
-.active {
-  border-bottom: 4px solid aqua;
-}
+
 @media only screen and (min-width: 200px) and (max-width: 950px) {
   .profile-section {
     display: none;
