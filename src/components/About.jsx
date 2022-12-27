@@ -11,6 +11,8 @@ import RepositoriesCard from "./RepositoriesCard";
 const About = () => {
   const style = {
     height: 120,
+    // position: "relative",
+    // zIndex: 1,
   };
   const options = {
     animationData: hand,

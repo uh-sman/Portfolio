@@ -34,7 +34,7 @@ export const Profile = () => {
           <a>
             <BsInstagram />
           </a>
-          <a>
+          <a href="https://twitter.com/home">
             <TiSocialTwitterCircular className="twitter" />
           </a>
           <a>
